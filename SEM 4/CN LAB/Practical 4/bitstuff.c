@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#define FLAG "010"
-#define ESCAPE "111"
+#define FLAG "01000010"
+#define ESCAPE "11100110"
 #define XOR 0x20
 
 void bitStuffing(char* data, int len, char* stuffedData, int* stuffedLen) {
