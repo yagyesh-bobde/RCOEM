@@ -24,6 +24,10 @@ A list of all cocker commands needed to get started.
         <td>Run a</td>
     </tr>
     <tr>
+        <td>docker run -itd -p 8090:80 nginx:alpine</td>
+        <td>Run docker container i-interactive t- d-detached<br/><i>NOTE: Alpine is the smallest os (linux based)</i></td>
+    </tr>
+    <tr>
         <td>docker logs -f nginx</td>
         <td>Logs follow</td>
     </tr>
@@ -39,4 +43,5 @@ A list of all cocker commands needed to get started.
         <td>docker rm -f name/id</td>
         <td>Docker process all</td>
     </tr>
+
 </table>
