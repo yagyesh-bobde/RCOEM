@@ -43,5 +43,9 @@ A list of all cocker commands needed to get started.
         <td>docker rm -f name/id</td>
         <td>Docker process all</td>
     </tr>
+    <tr>
+        <td>docker build -t flask:v1 .</td>
+        <td>Docker build image</td>
+    </tr>0
 
 </table>
