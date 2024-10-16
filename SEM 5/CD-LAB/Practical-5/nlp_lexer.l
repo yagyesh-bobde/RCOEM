@@ -30,9 +30,13 @@ the|a|an                  { print_token(DETERMINER, yytext); }
 on|of                     { print_token(PREPOSITION, yytext); }
 [a-zA-Z]+                 { print_token(UNKNOWN, yytext); }
 [ \t\n]                   ; /* Ignore whitespace */
-.                         { printf("Unexpected character: %s\n", yytext); }
+.                         { printf("Unexpected character this is a debug statement: %s\n", yytext); }
 
 %%
+
+int yywrap() {
+    return 1;
+}
 
 int main(int argc, char** argv) {
     if (argc > 1) {
@@ -54,6 +58,3 @@ int main(int argc, char** argv) {
     return 0;
 }
 
-int yywrap() {
-    return 1;
-}
