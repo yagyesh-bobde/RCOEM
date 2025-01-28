@@ -1,0 +1,20 @@
+*/
+Aim-Create a neural network from scratch for a multiclass classification
+task with the following architecture:
+
+Input layer: 4 neurons
+First hidden layer: 3 neurons
+Second hidden layer: 4 neurons
+Output layer: 3 neurons
+
+
+
+Generate a random dataset for a 3-class classification problem. Apply
+the designed neural network on generated dataset using the ReLU activation
+function in the hidden layers and the softmax activation function in the output
+layer for multiclass classification. Use categorical cross-entropy as the loss
+function for training. Additionally, implement the Gradient Descent, Momentum
+based GD, NAG, AdaGrad, RMS prop, Adam optimizer as part of the training
+process. Train the neural network using all optimizers and evaluate their
+performance on the dataset using performance metrics accuracy.
+/*
